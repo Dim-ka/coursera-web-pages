@@ -1,1 +1,2 @@
-# coursera-web-pages
+# Dim-ka solutions
+[module2-solution](module2-solution/index.html)
