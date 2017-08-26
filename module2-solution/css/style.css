@@ -1,3 +1,73 @@
-h1 {
-  color: green;
+* {
+  box-sizing: border-box;
+  font-family: Monospace, sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  font-size: 175%;
+  text-align: center;
+}
+
+section {
+  float: left;
+  position: relative;
+  padding: 10px;
+  /* push down text to not overlap title */
+  padding-top: 50px;
+  background-color: #dddddd;
+  border: 1px solid black;
+  font-size: 125%;
+  margin: 1.5%;
+  margin-top: 3%;
+}
+
+.section_title_region {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+  border: 1px solid black;
+  padding: 5px 30px;
+}
+
+#first_title {
+  background-color: #ffaa00;
+}
+
+#second_title {
+  background-color: #00aaff;
+}
+
+#third_title {
+  background-color: #aaff00;
+}
+
+body {
+  padding: 2%;
+}
+
+/* desktop */
+@media (min-width: 992px) {
+  section {
+    width: 30.33%;
+  }
+}
+
+/* tablet */
+@media (min-width: 768px) and (max-width: 991px) {
+  section {
+    width: 47%;
+  }
+  /* get last odd chield */
+  section:last-child:nth-child(odd) {
+    width: 97%;
+  }
+}
+
+/* mobile */
+@media (max-width: 767px) {
+  section {
+    /* by default 100% width */
+  }
 }
