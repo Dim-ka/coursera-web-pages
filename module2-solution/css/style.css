@@ -20,7 +20,6 @@ section {
   border: 1px solid black;
   font-size: 125%;
   margin: 1.5%;
-  margin-top: 3%;
 }
 
 .section_title_region {
@@ -69,5 +68,6 @@ body {
 @media (max-width: 767px) {
   section {
     /* by default 100% width */
+    margin: 10px;
   }
 }
