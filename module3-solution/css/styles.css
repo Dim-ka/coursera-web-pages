@@ -17,6 +17,10 @@
   text-decoration: none;
 }
 
+#nav-list {
+  background-color: #4d79b7;
+}
+
 #collapsable-nav ul li {
   font-weight: bold;
   color: #fff;
