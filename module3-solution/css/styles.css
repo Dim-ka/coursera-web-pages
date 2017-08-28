@@ -1,0 +1,35 @@
+/** HEADER **/
+#header-nav {
+  background-color: #2fb74d;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+  color: #fff;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#collapsable-nav ul li {
+  font-weight: bold;
+  color: #fff;
+}
+
+#collapsable-nav ul li a {
+  color: #fff;
+}
+
+#main-content {
+  background-color: #9bffb1;
+}
+
+h3 {
+  text-align: center;
+}
