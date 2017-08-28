@@ -30,8 +30,15 @@
   color: #fff;
 }
 
-#main-content {
+#main-content section div  {
   background-color: #9bffb1;
+  padding: 15px;
+  border: 2px solid #90f0b0;
+  border-radius: 5px;
+}
+
+#main-content section {
+  padding: 10px;
 }
 
 h3 {
